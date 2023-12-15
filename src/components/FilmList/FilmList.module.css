@@ -1,0 +1,27 @@
+.fimlsList {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: stretch;
+  }
+  .film {
+    flex: 0 0 calc(100% / 5 - 35px);
+    margin: 0 24px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .film:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  .filmWrapper {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }

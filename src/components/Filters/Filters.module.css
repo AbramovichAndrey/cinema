@@ -1,0 +1,41 @@
+.wrapper{
+    width: 518px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    right: 0;
+    background-color: #242426;
+    padding: 48px;
+    overflow: hidden;
+
+}
+.topSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.closeButton :hover{
+    cursor: pointer;
+}
+.sortContainer{
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 30px;
+}
+.sortButtonsConrainer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.sortButton{
+    width: 219px;
+    height: 56px;
+}
+.bodyContainer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,13 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    margin-bottom: 4px;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+}

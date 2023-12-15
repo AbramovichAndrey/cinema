@@ -1,0 +1,22 @@
+
+.filterIcon{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.inputWrapper{
+    width: 70%;
+    position: relative;
+}
+
+
+/* .filtersWrapper {
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+  }
+  
+  .filtersVisible {
+     opacity: 1; 
+  } */
+
+ 

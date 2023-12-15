@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    margin-bottom: 4px;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+  }
+  
+  .input {
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #323537;
+    color: white;
+
+  }
+  
+  .input:focus {
+    outline: none;
+    border: 2px solid #7B61FF
+  }
+  
+  .input:disabled {
+    background-color: rgb(242, 242, 242);
+  }
+  
+  .inputError,
+  .inputError:focus {
+    border:2px solid #FF5154;
+  }
+  
+  .helperText {
+    font-size: 12px;
+    margin: 4px 0 0 8px;
+  }
+  
+  .helperTextError {
+    color: #FF5154;
+  }

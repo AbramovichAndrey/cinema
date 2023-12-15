@@ -1,0 +1,39 @@
+ul,li{
+    list-style: none;
+}
+.itemContainer{
+display: flex;
+gap: 20px;
+}
+.menuItemText{
+    font-weight: 600;
+}
+.menuItemText:hover{
+    color: #7B61FF;
+}
+.menuItemIcon :hover{
+    fill: #7B61FF;
+}
+
+.menuItemIcon svg path{
+    fill: #80858B;
+}
+
+.wrapper{
+    padding: 48px 0 0 62px;
+
+}
+.list{
+    margin-top: 40px;
+}
+.item{
+    margin-bottom: 30px;
+    width: max-content;
+}
+.listWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: calc(100vh - 130px);
+
+}

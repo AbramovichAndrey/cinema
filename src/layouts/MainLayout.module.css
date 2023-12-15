@@ -1,0 +1,27 @@
+.main{
+    max-width: 1490px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.aside{
+width: 430px;
+grid-column: 1/1;
+grid-row: 1/2;
+position: fixed;
+
+
+}
+.header{
+    padding-top: 40px;
+    max-height: 55px;
+    width: 100%;
+    grid-column:  2/2;
+    grid-row: 1/1;
+}
+.app{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 430px 1fr ;
+    grid-template-rows: 55px 1fr;
+}
+
